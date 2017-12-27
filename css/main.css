@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+body {
+  font-family: "Pompiere", cursive;
+}
+
+#home, #work, #contact {
+  height: 750px;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  background-color: #3081e8;
+}
+#icon-img {
+  margin: 20px;
+  float: left;
+}
+header h1 {
+  color: #f7fafe;
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  float: left;
+  clear: right;
+  margin: 15px 50px 0px 0px;
+  padding: 0px;
+}
+header h3 {
+  color: #f7fafe;
+  font-size: 30px;
+  text-transform: lowercase;
+  font-weight: lighter;
+  float: left;
+  margin: 5px;
+}
+#line-img {
+  margin: 25px 0px 0px 0px;
+  float: left;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+  color: #f7fafe;
+  padding-left: 60px;
+}
+header h2 {
+  color: #f7fafe;
+  font-size: 38px;
+  font-weight: 100;
+  clear: both;
+  float: left;
+  width: 900;
+  margin: 225px;
+  text-align: center;
+}
+header span {
+  font-family: "Satisfy", cursive;
+  color: #1fe8b5;
+}
+#about-top {
+  height: 400px;
+  background-color: #324256;
+}
+#about-top h2 {
+  color: #f7fafe;
+  font-size: 72px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 100px 350px;
+}
+#about-top img {
+  margin: 3px 100px;
+}
+#about-bottom {
+  height: 350px;
+  background-color: #f7fafe;
+}
+#about-bottom p {
+  color: #324256;
+  font-size: 36px;
+  font-weight: lighter;
+  margin: 0 200px;
+  padding: 20px 0;
+}
+#work {
+  background-color: #3081e8;
+}
+#work h2 {
+  color: #f7fafe;
+  font-size: 72px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 0px 350px;
+  padding: 100px 0px 75px 0px;
+}
+#work img {
+  display: block;
+  margin: 0 auto;
+}
+#work h3 {
+  color: #f7fafe;
+  font-size: 30px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+}
+#work p {
+  color: #f7fafe;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 34px;
+  text-align: center;
+  margin: 30px;
+}
+#contact-top {
+  height: 550px;
+}
+#contact-top h2 {
+  color: #324256;
+  font-size: 72px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 100px 350px;
+}
+#contact-top p {
+  color: #324256;
+  font-size: 48px;
+  text-align: center;
+}
+#contact-top span {
+  font-family: "Satisfy", cursive;
+  color: #1fe8b5;
+}
+#contact-top a {
+  text-decoration: none;
+}
+#contact-bottom {
+  height: 150px;
+  background-color: #324256;
+}
+#contact-bottom h3{
+  color: #bfc9d7;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 45px;
+}
